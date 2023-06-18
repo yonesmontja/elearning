@@ -1,0 +1,11 @@
+/* Element specific rules that affect only this element class */
+
+.custombox-important {
+    width: 100%;
+}
+
+#region-main .custombox-header-thumb.important,
+#page-region-main .custombox-header-thumb.important {
+    min-width: 80px;
+    width: 80px;
+}

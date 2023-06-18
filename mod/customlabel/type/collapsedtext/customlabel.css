@@ -1,0 +1,26 @@
+/* Element specific rules that affect only this element class */
+
+.custombox-collapsedtext {
+    margin-left: 65px;
+}
+
+.custombox-collapsedtext-handle h4 {
+    margin-bottom: 10px;
+    padding: 10px;
+    cursor:pointer;
+}
+
+.custombox-collapsedtext-panel {
+    transform: scaleY(1);
+    transition: transform 1s ease-in-out;
+    transform-origin: top;
+    -webkit-transition: transform 1s ease-in-out;
+}
+
+.custombox-collapsedtext-panel.collapsed {
+    height: 0px;
+    overflow: hidden;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .2s ease;
+}

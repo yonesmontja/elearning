@@ -1,0 +1,20 @@
+/* Element specific rules that affect only this element class */
+
+.custombox-formule {
+    width: 100%;
+}
+
+.custombox-formula-container {
+    width: 100%;
+    text-align: center;
+}
+
+.custombox-formula {
+    margin: auto;
+    font-size: 1.3em;
+    letter-spacing: 0.5px;
+    font-style: italic;
+    font-weight: normal;
+    padding:10px;
+    display: inline-block;
+}

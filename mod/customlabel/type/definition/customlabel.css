@@ -1,0 +1,9 @@
+/* Element specific rules that affect only this element class */
+
+.custombox-definition {
+    width: 100%;
+}
+
+.custombox-subdefinitions.definition {
+    padding-left: 50px;
+}

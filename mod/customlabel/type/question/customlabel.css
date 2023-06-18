@@ -1,0 +1,39 @@
+/* Element specific rules that affect only this element class */
+
+.custombox-question {
+    width: 100%;
+}
+
+.custombox-header-collapser.question {
+    font-weight: bold;
+    padding: 3px 10px;
+}
+
+.custombox-content.hint {
+    padding: 10px 20px;
+}
+
+.custombox-content.answertext {
+    min-height: 100px;
+    padding: 10px 20px;
+}
+
+.custombox-header-collapser.question .comment {
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.custombox-header-collapser.question .teacher-comment {
+    -moz-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.custombox-qcm-input {
+    display: table-cell;
+    padding-right: 10px;
+}
+
+.custombox-qcm-text {
+    display: table-cell;
+    padding-right: 10px;
+}
